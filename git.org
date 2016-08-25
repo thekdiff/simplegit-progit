@@ -1,0 +1,15 @@
+* 基础
+** 撤销修改
++ git checkout -- <file> : 撤销修改到最后一次commit或stage。
+  （？如果还没有commit过，结果如何？）
++ git reset HEAD <file> : 将file移除缓存区
+
+** 比较（git diff）
++ git diff <file> : 比较modified和staged之间的不同
++ git diff --staged/cached <file> : 比较staged和committed之间的不同
++ git diff HEAD <file> : 比较modified和committed之间的不同
+
+** 添加远程仓库
++ git remote add [shortname] [url], e.g. git remote add origin 
+  https://github.com/thekdiff/simplegit-progit.git : 此命令把本地仓库
+  关联到远程仓库
