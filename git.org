@@ -16,4 +16,4 @@
   https://github.com/thekdiff/simplegit-progit.git : 此命令把本地仓库
   关联到远程仓库
 + git push -u [origin] [master] 推送本地仓库到远程仓库
-+ git remote remove [origin] : 取消本地库和远程库的关联
++ git remote rm [origin] : 取消本地库和远程库的关联
